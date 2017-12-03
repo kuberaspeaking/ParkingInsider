@@ -1,0 +1,16 @@
+### Call DB Api
+
+https://simulator-api.db.com/gw/oidc/authorize&response_type=token&redirect_url=http://localhost:8080&client_id=49dff74c-4c3d-43dc-bbe5-cf2d8c9bf4e9
+
+
+### Enter user credentials
+
+10000000002278
+62579
+
+### Receive Access Token 
+
+post https://simulator-api.db.com/gw/oidc/v1/transactions
+iban: ----
+
+### Receive user transaction history and display
